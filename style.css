@@ -5,7 +5,7 @@
 }
 
 .container {
-	height: 80vh;
+	height: 82vh;
     width: 100%;
 	margin: 0 auto;
 	padding: 0 20px;
@@ -38,14 +38,14 @@ p {
 header {
 	background-color: #fff;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-	padding: 20px;
+	padding: 10px;
 }
 
 .nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30 ps 80 px;
+    padding: 0 ps 80 px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	text-transform: lowercase;
 
@@ -185,6 +185,7 @@ button:hover {
 	text-align: right;
 	margin-left: 520px;
 	margin-right: 20px;
+	margin-bottom: 10px;
 }
 .review-button {
 	float: right;
@@ -193,14 +194,71 @@ button:hover {
 
 /*SECTION 2*/
 .connect-icons {
-	font-size: 30px;
+	font-size: 40px;
 	cursor: pointer;
 	display: flex;
 	column-gap: 0.8rem;
 	z-index: 10000;
 	color: crimson;
-	margin-left: 600px;
-	margin-top: 170px;
+	margin-left: 550px;
+	margin-top: 100px;
+}
+/*SECTION 3*/
+.heading {
+	text-align: center;
+	color: black;
+	margin-top: -70px;
+	background-color: antiquewhite;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.heading h2 {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	color: black;	
+}
+.products-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+	gap: 1.5rem;
+	margin-top: 2 rem;
+}
+.products-container .box {
+	position: relative;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 0.5rem;
+	box-shadow: #003d4d;
+}
+.products-container img {
+	width: 100%;
+	height: 250px;
+	object-fit: contain;
+	object-position: center;
+	padding: 20px;
+	background: #f1f1f1;
+	border-radius: 0.5rem;
+}
+.products-container .box h3 {
+	font-size: 1rem;
+	font-weight: 600;
+	margin: 0.5rem 0 0.5rem;
+}
+.products-container .box .content span {
+	padding: 0 1rem;
+	color: black;
+	border: 2px solid burlywood;
+	border-radius: 4px;
+	font-weight: 500;
+}
+.products-container .box .content a {
+	padding: 0 1rem;
+	color: black;
+	border: 2px solid burlywood;
+	border-radius: 4px;
+	text-transform: uppercase;
 }
 /* Footer Styles */
 
