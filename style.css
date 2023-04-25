@@ -191,6 +191,17 @@ button:hover {
 	margin-right: 20px;
 }
 
+/*SECTION 2*/
+.connect-icons {
+	font-size: 30px;
+	cursor: pointer;
+	display: flex;
+	column-gap: 0.8rem;
+	z-index: 10000;
+	color: crimson;
+	margin-left: 600px;
+	margin-top: 170px;
+}
 /* Footer Styles */
 
 footer {
@@ -200,6 +211,6 @@ footer {
 	text-align: center;
 	font-size: 14px;
 	color: black;
-	margin-top: 200px;
+	margin-top: 50px;
 	font-weight: bold;
 }
