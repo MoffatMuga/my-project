@@ -5,7 +5,7 @@
 }
 
 .container {
-	height: 100vh;
+	height: 80vh;
     width: 100%;
 	margin: 0 auto;
 	padding: 0 20px;
@@ -139,21 +139,67 @@ button {
 	cursor: pointer;
 	border-radius: 0.3rem;
 	margin-left: 80px;
+	margin-bottom: 110px;
 	
 }
 
 button:hover {
 	background-color: #003d4d;
 }
+/*section*/
+.image-cropper {
+    width: 600px;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile-pic {
+  display: block;
+  margin: auto auto;
+  margin-left: -25%; 
+  height: 100%;
+  width: auto;
+
+}
+.about-text h2{
+	color: black;
+	margin-left: 600px;
+	margin-top: -40%;
+	font-style: italic;
+}
+.about-text p {
+	color: burlywood;
+	text-align: right;
+	margin-left: 500px ;
+	margin-right: 20px ;
+}
+.review-text h2 {
+	color: black;
+	margin-left: 600px;
+	margin-top: 70px;
+	font-style: italic ;
+}
+.review-text p {
+	color: burlywood;
+	text-align: right;
+	margin-left: 520px;
+	margin-right: 20px;
+}
+.review-button {
+	float: right;
+	margin-right: 20px;
+}
 
 /* Footer Styles */
 
 footer {
-	background-color: #fff;
+	background-color: burlywood;
 	box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
 	padding: 20px;
 	text-align: center;
 	font-size: 14px;
-	color: #666;
-	margin-top: 30px;
+	color: black;
+	margin-top: 200px;
+	font-weight: bold;
 }
