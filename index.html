@@ -6,26 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <!--BOX ICONS-->
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     
 </head>
 <body>
     <div class="container">
         <div class = "nav-bar">
+            <header>
             <h1 class = "title">COFFEE <span>TIME</span></h1>
-            <p>At Muga's Coffee Shop</p>
-            <ul class = "menu">
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact-us">Contact-us</a></li>
-                <li><a href="#about-us">About Us</a></li>
-                <li><a href="#reviews">Reviews</a></li>
-            </ul>
+                <ul class = "menu">
+                    <li><a href="#contact-us">Contact-us</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+                <div class="header-icon">
+                    <i class='bx bxs-cart-add'></i>
+                    <i class='bx bx-search' id="search-icon"></i>
+                    <i class='bx bx-menu'id= "menu-icon"></i>
+                </div>
+            </header>
         </div>
     <div class="side-bar">
             
             <div id="online-ordering">
                 <h2>Online Ordering</h2>
-                <p>Order your coffee online for pickup or delivery. Click the button below to start your order:</p>
+                <p>Order your coffee online for pickup or delivery.<br> the button below to start your order:</p>
                 <button>Order Now</button>
                 
             </div>
@@ -45,6 +52,6 @@
 <footer>
     <p>&copy; 2023 Coffee Store. All rights reserved.</p>
 </footer>
-
+    <script src="main.js"></script>
 </body>
 </html>

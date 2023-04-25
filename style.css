@@ -44,14 +44,51 @@ header {
     justify-content: space-between;
     padding: 30 ps 80 px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	text-transform: uppercase;
+	text-transform: lowercase;
 
 }
 .nav-bar .title {
     font-size: 77px;
     color:#fff;
     font-weight: bold;
+	left: 0;
+	text-align: left;
+}
+.nav-bar a {
+	padding: 8px 17px;
+	font-size: 1rem;
+	font-weight: 500;
+	display: flex;
+}
+.nav-bar a:hover {
+	background-color: crimson;
+	border-radius: 0.2rem;
+	transition: 0.2s all linear;
+}
 
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 100px;
+	transition: 0.5s linear;
+	background-color: black;
+	color: #fff;
+}	
+.header-icon {
+	font-size: 22px;
+	cursor: pointer;
+	display: flex;
+	column-gap: 0.8rem;
+	z-index: 10000;
+}
+#menu-icon{
+	font-size: 28px;
 }
 span {
     color: crimson;
