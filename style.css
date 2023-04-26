@@ -246,6 +246,8 @@ button:hover {
 	font-size: 1rem;
 	font-weight: 600;
 	margin: 0.5rem 0 0.5rem;
+	color: black;
+	text-align: center;
 }
 .products-container .box .content span {
 	padding: 0 1rem;
