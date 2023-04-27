@@ -5,7 +5,7 @@
 }
 
 .container {
-	height: 82vh;
+	height: 78vh;
     width: 100%;
 	margin: 0 auto;
 	padding: 0 20px;
@@ -148,7 +148,7 @@ button:hover {
 }
 /*section*/
 .image-cropper {
-    width: 600px;
+    width: 580px;
     height: 550px;
     position: relative;
     overflow: hidden;
@@ -240,7 +240,7 @@ button:hover {
 	object-position: center;
 	padding: 20px;
 	background: #f1f1f1;
-	border-radius: 0.5rem;
+	border-radius: 1rem;
 }
 .products-container .box h3 {
 	font-size: 1rem;
@@ -248,6 +248,10 @@ button:hover {
 	margin: 0.5rem 0 0.5rem;
 	color: black;
 	text-align: center;
+	border: 2px solid crimson;
+	border-radius: 5px;
+	background-color: burlywood;
+	text-transform: uppercase;
 }
 .products-container .box .content span {
 	padding: 0 1rem;
