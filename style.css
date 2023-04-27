@@ -245,7 +245,7 @@ button:hover {
 .products-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(280px, auto));
-	gap: 1.5rem;
+	gap: 4.0rem;
 	margin-top: 2 rem;
 }
 .products-container .box {
@@ -290,6 +290,10 @@ button:hover {
 	border: 2px solid burlywood;
 	border-radius: 4px;
 	text-transform: uppercase;
+}
+.products-container .box .content p {
+	color:black;
+	text-align:center;
 }
 /* Footer Styles */
 

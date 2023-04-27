@@ -16,7 +16,7 @@ const addToCartButtons = document.querySelectorAll(".add");
         });
       });
 
-fetch("https://api.sampleapis.com/coffee/hot").then((data) =>{
+fetch("https://api.sampleapis.com/coffee/iced").then((data) =>{
       //console.log(data);
       return data.json();
 }).then((completedata) => {
@@ -29,6 +29,7 @@ fetch("https://api.sampleapis.com/coffee/hot").then((data) =>{
     <div class="content">
         <span class="price">ksh.250</span>
         <a href="#" class="add">Add to cart</a>
+        <p class = "description">${values.description}</P>
     </div>
 </div>`
   })
@@ -38,6 +39,33 @@ fetch("https://api.sampleapis.com/coffee/hot").then((data) =>{
 })
 
 document.querySelector('.review-button').addEventListener('click', getPosts)
+
+const menuLinks = document.querySelectorAll(".menu a");
+
+menuLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+    const target = document.querySelector(link.hash);
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+});
+
+const addButtons = document.querySelectorAll(".add");
+
+addButtons.forEach((button) => {
+  button.addEventListener("click", (event) => {
+    const product = button.closest(".box");
+    const productName = product.querySelector("h3").textContent;
+    const productPrice = product.querySelector(".content span").textContent;
+    console.log(`Added ${productName} to cart for ${productPrice}.`);
+  });
+});
+
+const searchIcon = document.getElementById("search-icon");
+searchIcon.addEventListener("click", function() {
+   const searchBox = document.querySelector(".search-box");
+   searchBox.classList.toggle("active");
+});
 
 /*function getReviews() {
   fetch('https://api.sampleapis.com/coffee/iced')
