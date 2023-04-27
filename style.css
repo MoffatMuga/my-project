@@ -104,6 +104,19 @@ header {
 	width: 100%;
 	margin-left: 100px;
 }
+.search-box input {
+	padding: 12px;
+	border: none;
+	outline: none;
+	width: 85%;
+	font-size: 1rem;
+	margin-right: 100px;
+	border-radius: 0.5rem ;
+}
+.search-box input::placeholder{
+	font-size: 1rem;
+	font-weight: 500;
+}
 span {
     color: crimson;
 	text-transform: lowercase;
