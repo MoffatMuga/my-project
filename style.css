@@ -276,6 +276,7 @@ button:hover {
 	border-radius: 5px;
 	background-color: burlywood;
 	text-transform: uppercase;
+
 }
 .products-container .box .content span {
 	padding: 0 1rem;
@@ -290,6 +291,7 @@ button:hover {
 	border: 2px solid burlywood;
 	border-radius: 4px;
 	text-transform: uppercase;
+	margin-left: 160px;
 }
 .products-container .box .content p {
 	color:black;
@@ -299,6 +301,7 @@ button:hover {
 	margin-bottom: 0%;
 	border: 2px solid grey;
 	font-weight: bold ;
+	border-radius: 14px;
 
 }
 /* Footer Styles */
