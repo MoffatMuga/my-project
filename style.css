@@ -93,6 +93,14 @@ header {
 #menu-icon{
 	font-size: 28px;
 }
+.header-icon .bx:hover {
+	color: crimson;
+}
+.search-box {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+}
 span {
     color: crimson;
 	text-transform: lowercase;
